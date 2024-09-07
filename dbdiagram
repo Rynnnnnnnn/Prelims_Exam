@@ -1,0 +1,38 @@
+Table Products {
+  Product_ID integer [primary key]
+  Product_Name varchar
+  Category_ID integer
+  Supplier_ID integer [ref: > Suppliers.Supplier_ID]
+  UnitPrice decimal
+}
+
+Table Suppliers {
+  Supplier_ID integer [primary key]
+  Supplier_Name varchar
+  Email varchar
+  Contact_Info integer
+}
+
+Table Stocks {
+Product_ID integer [ref: > Products.Product_ID]
+Quantity integer
+LastUpdated date
+}
+
+Table Orders {
+  Order_ID integer [primary key]
+  Supplier_ID integer [ref: > Suppliers.Supplier_ID]
+  OrderDate date
+}
+
+Table Sales {
+  Sales_ID integer
+  Sales_Date date
+  Total decimal
+}
+
+Table Sales_Products {
+  Sale_ID integer [ref: < Sales.Sales_ID]
+  Product_ID integer [ref: > Products.Product_ID]
+  QuantitySold integer
+}
