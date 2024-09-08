@@ -1,0 +1,28 @@
+INSERT INTO Products (Product_ID, Product_Name, Category_ID, Supplier_ID, UnitPrice) 
+VALUES
+(17, 'Espresso Dark Roast', 18, 25, 747.3),
+(8, 'Iced Vanilla Latte', 4, 24, 865.69),
+(22, 'Hazelnut Cappuccino', 1, 24, 968.02),
+(25, 'Matcha Green Tea Latte', 12, 0, 894.05),
+(23, 'Caramel Macchiato', 22, 0, 930.27),
+(10, 'Pumpkin Spice Latte', 13, 24, 833.81),
+(24, 'Mocha Frappuccino', 18, 19, 413.22),
+(16, 'Chai Tea Latte', 10, 17, 368.64),
+(18, 'Americano', 20, 10, 492.46),
+(15, 'Flat White', 25, 0, 221.65),
+(6, 'Cold Brew Coffee', 2, 11, 937.27),
+(5, 'Affogato', 25, 10, 759.28),
+(23, 'Mocha', 10, 25, 493.71),
+(15, 'Double Espresso', 17, 4, 593.67),
+(16, 'Cinnamon Dolce Latte', 16, 19, 230.34),
+(5, 'Nitro Cold Brew', 9, 2, 715.68),
+(2, 'Iced Caramel Latte', 3, 24, 433.57),
+(7, 'Flat White with Almond Milk', 0, 1, 856.95),
+(24, 'Hot Chocolate', 5, 15, 886.08),
+(12, 'Honey Oatmilk Latte', 16, 22, 564.66),
+(1, 'Iced Matcha Latte', 9, 15, 642.84),
+(14, 'Cortado', 0, 20, 141.19),
+(14, 'Vanilla Bean Frappuccino', 14, 9, 966.27),
+(11, 'Turmeric Latte', 19, 21, 792.51),
+(22, 'Irish Coffee', 17, 17, 747.51);
+
