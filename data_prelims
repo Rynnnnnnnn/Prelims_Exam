@@ -53,6 +53,10 @@ VALUES
 (21, 'Roast & Toast', 'roastandtoast@mapy.cz', '950-238-5210'),
 (12, 'Smooth Sips', 'smoothsips@goodreads.com', '680-393-2292'),
 (16, 'Blended Brews', 'blendedbrews@webnode.com', '978-741-1750');
+(0, 'Unknown Supplier', 'unknown@supplier.com', '123-456-7890'),
+(19, 'Specialty Brews', 'specialty@brews.com', '555-987-6543'),
+(4, 'Premium Coffee Supplies', 'premium@coffeesupplies.com', '444-444-4444');
+
 
 INSERT INTO Stocks (Product_ID, Quantity, LastUpdated) 
 VALUES 
