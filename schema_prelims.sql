@@ -3,7 +3,7 @@ CREATE TABLE Products (
   Product_Name VARCHAR(255),
   Category_ID INT,
   Supplier_ID INT,
-  UnitPrice DECIMAL(10, 2),
+  UnitPrice DECIMAL(10, 2)
 );
 
 CREATE TABLE Suppliers (
@@ -16,13 +16,13 @@ CREATE TABLE Suppliers (
 CREATE TABLE Stocks (
   Product_ID INT,
   Quantity INT,
-  LastUpdated DATE,
+  LastUpdated DATE
 );
 
 CREATE TABLE Orders (
   Order_ID INT PRIMARY KEY,
   Supplier_ID INT,
-  OrderDate DATE,
+  OrderDate DATE
 );
 
 CREATE TABLE Sales (
@@ -34,7 +34,7 @@ CREATE TABLE Sales (
 CREATE TABLE Sales_Products (
   Sale_ID INT,
   Product_ID INT,
-  QuantitySold INT,
+  QuantitySold INT
 );
 
 UPDATE Stock_Levels
