@@ -26,3 +26,30 @@ VALUES
 (11, 'Turmeric Latte', 19, 21, 792.51),
 (22, 'Irish Coffee', 17, 17, 747.51);
 
+INSERT INTO Suppliers (Supplier_ID, Supplier_Name, Email, Contact_Info) 
+VALUES
+(20, 'BrewMaster Supplies', 'brewmaster@smh.com.au', '621-434-5614'),
+(13, 'Vanilla Bean Goods', 'vanillabean@usa.gov', '935-224-9223'),
+(21, 'Cappuccino Creations', 'cappuccinocreations@theguardian.com', '905-769-0918'),
+(2, 'Espresso Essentials', 'espressoessentials@prweb.com', '190-856-2530'),
+(16, 'Latte Love Co.', 'lattelove@tripod.com', '888-651-0920'),
+(18, 'Mocha Magic', 'mochamagic@networkadvertising.org', '582-559-6107'),
+(2, 'Arabica Supplies', 'arabica@twitter.com', '308-344-3931'),
+(21, 'Creamy Delights', 'creamydelights@washingtonpost.com', '498-193-1267'),
+(25, 'Caramel Café Suppliers', 'caramelcafe@washingtonpost.com', '117-423-2477'),
+(1, 'Beans & Brews', 'beansbrews@yolasite.com', '255-368-5213'),
+(22, 'Nutty Roasters', 'nuttyroasters@histats.com', '841-588-7838'),
+(2, 'Coffee Craft', 'coffeecraft@wp.com', '839-446-8854'),
+(18, 'Brewed Bliss', 'brewedbliss@comsenz.com', '928-219-3787'),
+(18, 'Frappuccino Friends', 'frappuccinofriends@unesco.org', '203-193-5394'),
+(17, 'Espresso Elite', 'espressoelite@bigcartel.com', '256-814-6841'),
+(17, 'Latte Lovers', 'lattelovers@addthis.com', '370-513-6457'),
+(15, 'Caffeine Co.', 'caffeineco@virginia.edu', '997-953-5665'),
+(3, 'Coffee Essentials', 'coffeeessentials@yandex.ru', '960-660-2785'),
+(13, 'Bean Roasters', 'beanroasters@squarespace.com', '229-943-0260'),
+(18, 'Crafted Coffee', 'craftedcoffee@blogger.com', '705-296-9197'),
+(4, 'Steam & Brew', 'steamandbrew@woothemes.com', '977-444-4459'),
+(2, 'Café Quality', 'cafequality@ed.gov', '845-269-7351'),
+(21, 'Roast & Toast', 'roastandtoast@mapy.cz', '950-238-5210'),
+(12, 'Smooth Sips', 'smoothsips@goodreads.com', '680-393-2292'),
+(16, 'Blended Brews', 'blendedbrews@webnode.com', '978-741-1750');
