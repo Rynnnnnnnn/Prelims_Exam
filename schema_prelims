@@ -4,7 +4,6 @@ CREATE TABLE Products (
   Category_ID INT,
   Supplier_ID INT,
   UnitPrice DECIMAL(10, 2),
-  FOREIGN KEY (Supplier_ID) REFERENCES Suppliers(Supplier_ID)
 );
 
 CREATE TABLE Suppliers (
@@ -18,14 +17,12 @@ CREATE TABLE Stocks (
   Product_ID INT,
   Quantity INT,
   LastUpdated DATE,
-  FOREIGN KEY (Product_ID) REFERENCES Products(Product_ID)
 );
 
 CREATE TABLE Orders (
   Order_ID INT PRIMARY KEY,
   Supplier_ID INT,
   OrderDate DATE,
-  FOREIGN KEY (Supplier_ID) REFERENCES Suppliers(Supplier_ID)
 );
 
 CREATE TABLE Sales (
@@ -38,8 +35,6 @@ CREATE TABLE Sales_Products (
   Sale_ID INT,
   Product_ID INT,
   QuantitySold INT,
-  FOREIGN KEY (Sale_ID) REFERENCES Sales(Sales_ID),
-  FOREIGN KEY (Product_ID) REFERENCES Products(Product_ID)
 );
 
 UPDATE Stock_Levels
