@@ -9,22 +9,22 @@ VALUES
 (24, 'Mocha Frappuccino', 18, 19, 413.22),
 (16, 'Chai Tea Latte', 10, 17, 368.64),
 (18, 'Americano', 20, 10, 492.46),
-(15, 'Flat White', 25, 0, 221.65),
+(26, 'Flat White', 25, 0, 221.65),  -- Changed Product_ID from 15 to 26
 (6, 'Cold Brew Coffee', 2, 11, 937.27),
 (5, 'Affogato', 25, 10, 759.28),
-(23, 'Mocha', 10, 25, 493.71),
-(15, 'Double Espresso', 17, 4, 593.67),
-(16, 'Cinnamon Dolce Latte', 16, 19, 230.34),
-(5, 'Nitro Cold Brew', 9, 2, 715.68),
+(27, 'Mocha', 10, 25, 493.71),  -- Changed Product_ID from 23 to 27
+(28, 'Double Espresso', 17, 4, 593.67),  -- Changed Product_ID from 15 to 28
+(29, 'Cinnamon Dolce Latte', 16, 19, 230.34),  -- Changed Product_ID from 16 to 29
+(30, 'Nitro Cold Brew', 9, 2, 715.68),  -- Changed Product_ID from 5 to 30
 (2, 'Iced Caramel Latte', 3, 24, 433.57),
 (7, 'Flat White with Almond Milk', 0, 1, 856.95),
-(24, 'Hot Chocolate', 5, 15, 886.08),
+(31, 'Hot Chocolate', 5, 15, 886.08),  -- Changed Product_ID from 24 to 31
 (12, 'Honey Oatmilk Latte', 16, 22, 564.66),
 (1, 'Iced Matcha Latte', 9, 15, 642.84),
 (14, 'Cortado', 0, 20, 141.19),
-(14, 'Vanilla Bean Frappuccino', 14, 9, 966.27),
+(32, 'Vanilla Bean Frappuccino', 14, 9, 966.27),  -- Changed Product_ID from 14 to 32
 (11, 'Turmeric Latte', 19, 21, 792.51),
-(22, 'Irish Coffee', 17, 17, 747.51);
+(33, 'Irish Coffee', 17, 17, 747.51);  -- Changed Product_ID from 22 to 33
 
 INSERT INTO Suppliers (Supplier_ID, Supplier_Name, Email, Contact_Info) 
 VALUES
