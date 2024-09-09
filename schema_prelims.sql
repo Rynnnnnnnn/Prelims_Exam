@@ -36,7 +36,3 @@ CREATE TABLE Sales_Products (
   Product_ID INT,
   QuantitySold INT
 );
-
-UPDATE Stock_Levels
-SET Quantity = Quantity - [QuantitySold]
-WHERE ProductID = [ProductID];
