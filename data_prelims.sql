@@ -132,7 +132,8 @@ VALUES
 (39, '2024-04-05', 19602.53),
 (5, '2024-01-25', 7254.41);
 
-INSERT INTO Sales_Products (Sale_ID, Product_ID, QuantitySold) VALUES
+INSERT INTO Sales_Products (Sale_ID, Product_ID, QuantitySold) 
+VALUES
 (23, 22, 2259),
 (5, 15, 4018),
 (7, 24, 4129),
